@@ -67,6 +67,49 @@ import TaxigovGeraReducaoDeCustos from './contents/TaxigovGeraReducaoDeCustos';
 
 import MultasAmbientaisViramInvestimento from './contents/MultasAmbientaisViramInvestimento';
 import PfBateRecordeHistoricoDeApreensaoDeDrogas from './contents/PfBateRecordeHistoricoDeApreensaoDeDrogas';
+import NovasRegrasPagamento from './contents/NovasRegrasPagamento';
+import DepoimentoMinistroDireitosHumanos from './contents/DepoimentoMinistroDireitosHumanos';
+import DepoimentoMinistroTurismo from './contents/DepoimentoMinistroTurismo';
+import BrasilMaisTurismo from './contents/BrasilMaisTurismo';
+import AvancarAlavancaCrescimento from './contents/AvancarAlavancaCrescimento';
+import DepoimentoMinistroIndustriaComercioExteriorServicos from './contents/DepoimentoMinistroIndustriaComercioExteriorServicos';
+import DepoimentoMinistroMinasEnergia from './contents/DepoimentoMinistroMinasEnergia';
+import DepoimentoMinistroDaFazenda from './contents/DepoimentoMinistroDaFazenda';
+import MedicamentosReajustadosAbaixoInflacao from './contents/MedicamentosReajustadosAbaixoInflacao';
+import DepoimentoMinistroEducacao from './contents/DepoimentoMinistroEducacao';
+import ReformaAdministrativa from './contents/ReformaAdministrativa';
+import PlataformaDeServicos from './contents/PlataformaDeServicos';
+import CriancaFeliz from './contents/CriancaFeliz';
+import MelhoriasParaOBPC from './contents/MelhoriasParaOBPC';
+import ComProgredirFamiliasGanhamAutonomia from './contents/ComProgredirFamiliasGanhamAutonomia';
+import InternetParaTodos from './contents/InternetParaTodos';
+import MordenizaAgronegocioBrasileiro from './contents/MordenizaAgronegocioBrasileiro';
+import BrasilRatificaAcordoDeParis from './contents/BrasilRatificaAcordoDeParis';
+import AmazoniaLegal from './contents/AmazoniaLegal';
+import SaneamentoBasicoAPopulacao from './contents/SaneamentoBasicoAPopulacao';
+import AcordoImpulsionamBrasilExterior from './contents/AcordoImpulsionamBrasilExterior';
+import NovoChico from './contents/NovoChico';
+import AeroportosRegionaisRecebem from './contents/AeroportosRegionaisRecebem';
+import MulheresPoderaoChegarAoComandoExercito from './contents/MulheresPoderaoChegarAoComandoExercito';
+import CaisDoValongoPatrimonioMundial from './contents/CaisDoValongoPatrimonioMundial';
+import ComiteCoordenarMigracao from './contents/ComiteCoordenarMigracao';
+import LeiRouanetAperfeicoada from './contents/LeiRouanetAperfeicoada';
+import BrasilEChinaAssinamAcordo from './contents/BrasilEChinaAssinamAcordo';
+import AlertaDeRiscoPorSMS from './contents/AlertaDeRiscoPorSMS';
+import TuristasGastamSomaRecorde from './contents/TuristasGastamSomaRecorde';
+import CinemaNacionalBateRecorde from './contents/CinemaNacionalBateRecorde';
+import BrasilRegistraRecordeDeTuristas from './contents/BrasilRegistraRecordeDeTuristas';
+import SegundoTempoBeneficia from './contents/SegundoTempoBeneficia';
+import EconomiaBrasileiraAvancaNoMundo from './contents/EconomiaBrasileiraAvancaNoMundo';
+import ComercioExteriorImpulsionado from './contents/ComercioExteriorImpulsionado';
+import BrasilSuperaMetaOnu from './contents/BrasilSuperaMetaOnu';
+import MaisTurismoECultura from './contents/MaisTurismoECultura';
+import ParquesNacionaisTemRecordeDeVisitacao from './contents/ParquesNacionaisTemRecordeDeVisitacao';
+import EVisaAumentaTurismo from './contents/EVisaAumentaTurismo';
+import PronatecTurismoOferece from './contents/PronatecTurismoOferece';
+import EsporteECidadania from './contents/EsporteECidadania';
+import BolsaAtleta2017 from './contents/BolsaAtleta2017';
+import ForcasNoEsporte from './contents/ForcasNoEsporte';
 
 // import afogado from '../assets/videos/AFOGADO.mp4';
 // import afogadoMobile from '../assets/videos/afogados_mobile.mp4';
@@ -88,6 +131,7 @@ import logoColor3 from '../assets/img/logo-color@3x.png';
 import logoRodape from '../assets/img/logo-rodape.png';
 import logoRodape2 from '../assets/img/logo-rodape@2x.png';
 import logoRodape3 from '../assets/img/logo-rodape@3x.png';
+
 
 /* 
 import  from '../assets/img/.png';
@@ -316,7 +360,7 @@ class Home extends Component {
 
                             {/* 4 - Matéria 6 Economia */}
 
-                            <div onClick={this.openModal.bind(this)} to="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" id="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" className="picture-item grayscale square-two-rows" tabIndex="0" data-groups='["energia"]'>
+                            <div onClick={this.openModal.bind(this)} to="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" id="modernizacao-trabalhista-novos-contratos-esquentam-o-mercado-de-trabalho" className="picture-item grayscale square-two-rows" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_seven_alt type">
                                     <div className="float-title-alt float-title-two">
                                         Nova lei trabalhista <strong>beneficia criação de empregos</strong>
@@ -334,7 +378,7 @@ class Home extends Component {
                             {/* 5 - video 1 */}
                             <div onClick={this.openModal.bind(this)} to="depoimento-presidente-da-caixa" id="depoimento-presidente-da-caixa" className="picture-item grayscale square-two-rows-and-columns" tabIndex="0" data-groups='["todos"]'>
                                 <div className="type_three type">
-                                    <div className="thumb">
+                                    <div className="thumb" id="depoimento1">
                                         <img alt="" className="column" src={require('../assets/img/thumb/05-video-entrevista1.png')} />
                                     </div>
                                     <div className="content">
@@ -431,40 +475,10 @@ class Home extends Component {
                             {/* PRIMEIRA METADE DA LEVA */}
                             {/* <div id="video-afogados" className="picture-item grayscale alternate center" data-groups='["todos"]'> */}
                             {/* <img id="video" className="play-button play" src={require('')} src="../assets/img/thumb/afogados_thumb.jpg"> */}
+                            <div id="video-relogio" className="picture-item alternate center" data-groups='["todos"]'>
+                                <img alt="" className="play-button2 play" src={require('../assets/img/thumb/relogio_thumb.jpg')} />
+                            </div>
                             {/* </div> */}
-
-                            {/* 11 - Matéria 26 Educação */}
-
-                            <div onClick={this.openModal.bind(this)} to="fies-tera-350-mil" id="fies-tera-350-mil" className="picture-item square-two-columns" tabIndex="0" data-groups='["energia"]'>
-                                <div className="type_four_alt type">
-                                    <div className="float-title-alt float-title-two-collumns">
-                                        Fies abre 100 mil vagas a <strong>juro zero em 2018</strong>
-                                    </div>
-                                    <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/11-fies-vagas.png')} />
-                                    </div>
-                                    <div className="content">
-                                        <Route path={`${this.props.match.path}fies-tera-350-mil`} component={FiesTera350Mil} />
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* 12 Matéria 20 Agro */}
-
-                            <div onClick={this.openModal.bind(this)} to="agricultura-familiar-recebe" id="agricultura-familiar-recebe" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
-                                <div className="type_five_alt type">
-                                    <div className="float-title-alt float-title-two-collumns">
-                                        Agricultura familiar recebe crédito de <strong>R$ 30 bilhões</strong>
-                                    </div>
-                                    <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/12-agricultura-familiar.png')} />
-                                    </div>
-                                    <div className="content">
-                                        <Route path={`${this.props.match.path}agricultura-familiar-recebe`} component={AgriculturaFamiliarRecebe} />
-                                    </div>
-                                </div>
-                            </div>
-
 
                             {/* 13 - Matéria 15 Energia */}
 
@@ -533,7 +547,7 @@ class Home extends Component {
 
                             {/* 18 - Matéria 16 energia */}
 
-                            <NavLink to="leiloes-de-energia-atraem-bilhoes" id="leiloes-de-energia-atraem-bilhoes" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["energia"]'>
+                            <NavLink to="leiloes-de-energia-atraem-bilhoes" id="leiloes-de-energia-atraem-bilhoes" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_three_alt type">
                                     <div className="float-title-alt float-title-three">
                                         Leilões de energia atraem <strong>bilhões em investimentos</strong>
@@ -550,7 +564,7 @@ class Home extends Component {
 
                             {/* 16 Matéria 29 Educação */}
 
-                            <NavLink to="programa-mais-alfabetizacao" id="programa-mais-alfabetizacao" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
+                            <NavLink to="programa-mais-alfabetizacao" id="programa-mais-alfabetizacao" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_one type">
                                     <div className="float-title float-title-one">
                                         R$ 523 milhões para o <strong>Programa Mais Alfabetização</strong>
@@ -607,7 +621,7 @@ class Home extends Component {
 
                             {/* 21-Matéria 36 saude */}
 
-                            <NavLink to="SAMU-192-tem-65-da-sua-frota-renovada-em-dois-anos" id="SAMU-192-tem-65-da-sua-frota-renovada-em-dois-anos" className="picture-item square-two-columns" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="SAMU-192-tem-65-da-sua-frota-renovada-em-dois-anos" id="SAMU-192-tem-65-da-sua-frota-renovada-em-dois-anos" className="picture-item square-two-columns" tabIndex="0" data-groups='["gestao"]'>
                                 <div className="type_four_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         <strong>SAMU 192</strong> tem 65% da sua frota renovada em dois anos
@@ -623,7 +637,7 @@ class Home extends Component {
                             </NavLink>
 
                             {/* 22 Matéria 33 saude */}
-                            <NavLink to="numero-de-consultas-nas-ubs" id="numero-de-consultas-nas-ubs" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="numero-de-consultas-nas-ubs" id="numero-de-consultas-nas-ubs" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_five_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
                                         UBS:  <strong>gestão eficiente</strong> leva saúde para quem precisa
@@ -637,12 +651,13 @@ class Home extends Component {
                                 </div>
                             </NavLink>
 
+                            {/* início-bloco */}
 
                             {/* 23-Matéria 38 saude */}
 
-                            <NavLink to="casos-de-dengue-zika-e-chicungunya-sao-reduzidos" id="casos-de-dengue-zika-e-chicungunya-sao-reduzidos" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="casos-de-dengue-zika-e-chicungunya-sao-reduzidos" id="casos-de-dengue-zika-e-chicungunya-sao-reduzidos" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_one type">
-                                    <div className="float-title float-title-three">
+                                    <div className="float-title float-title-five">
                                         Casos de dengue, zika e chicungunya <strong>são reduzidos</strong>
                                     </div>
                                     <div className="thumb">
@@ -656,7 +671,7 @@ class Home extends Component {
 
                             {/* 24-Matéria 42 saude */}
 
-                            <NavLink to="cobertura-dos-planos-de-saude-e-ampliada" id="cobertura-dos-planos-de-saude-e-ampliada" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="cobertura-dos-planos-de-saude-e-ampliada" id="cobertura-dos-planos-de-saude-e-ampliada" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-three">
                                         Cobertura dos planos de saúde <strong>é ampliada</strong>
@@ -673,7 +688,7 @@ class Home extends Component {
 
                             {/* 25-Matéria 37 saude */}
 
-                            <NavLink to="decreto-assegura-transporte-de-orgaos-pela-fab" id="decreto-assegura-transporte-de-orgaos-pela-fab" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="decreto-assegura-transporte-de-orgaos-pela-fab" id="decreto-assegura-transporte-de-orgaos-pela-fab" className="picture-item square" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_eigth-alt type">
                                     <div className="float-title-alt float-title-three">
                                         Decreto assegura <strong>transporte de órgãos pela FAB</strong>
@@ -689,7 +704,7 @@ class Home extends Component {
 
                             {/* 26- Matéria 43 saude */}
 
-                            <NavLink to="compra-de-medicamentos-tem-reforco-de-R-80-milhoes" id="compra-de-medicamentos-tem-reforco-de-R-80-milhoes" className="picture-item grayscale square-two-rows" tabIndex="0" data-groups='["saude"]'>
+                            <NavLink to="compra-de-medicamentos-tem-reforco-de-R-80-milhoes" id="compra-de-medicamentos-tem-reforco-de-R-80-milhoes" className="picture-item grayscale square-two-rows" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_seven_alt type">
                                     <div className="float-title-alt float-title-three">
                                         Compra de medicamentos tem <strong>reforço de R$ 80 milhões</strong>
@@ -736,18 +751,17 @@ class Home extends Component {
                                 </div>
                             </NavLink>
 
-                            {/* 29 Matéria 40- 11 economia */}
-
-                            <NavLink to="teto-dos-gastos" id="teto-dos-gastos" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                            {/* 35 Matéria 65 segurança e defesa */}
+                            <NavLink to="governo-reforca-operacoes-na-faixa-de-fronteira" id="governo-reforca-operacoes-na-faixa-de-fronteira" className="picture-item grayscale square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
                                 <div className="type_six type">
                                     <div className="float-title float-title-one">
-                                        Teto dos gastos <strong>ajusta as contas públicas</strong>
+                                        <strong>Governo reforça operações</strong> na faixa de fronteira
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-99.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}teto-dos-gastos`} component={TetoDosGastos} />
+                                        <Route path={`${this.props.match.path}governo-reforca-operacoes-na-faixa-de-fronteira`} component={GovernoReforcaOperacoesNaFaixaDeFronteira} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -755,11 +769,11 @@ class Home extends Component {
                             {/* 30-Matéria 52 social */}
 
                             <NavLink to="bolsa-familia-tem-aumento-no-beneficio-e-fila-zerada" id="bolsa-familia-tem-aumento-no-beneficio-e-fila-zerada" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
-                                <div className="type_six type">
-                                    <div className="float-title float-title-one">
+                                <div className="type_two type">
+                                    <div className="float-title float-title-three">
                                         Bolsa família tem aumento no benefício e <strong>fila zerada</strong>
                                     </div>
-                                    <div className="thumb">
+                                    <div className="thumb" id="bolsafamilia">
                                         <img alt="" src={require('../assets/img/thumb/30-bolsa-familia.png')} />
                                     </div>
 
@@ -799,6 +813,10 @@ class Home extends Component {
                                     </div>
                                 </div>
                             </NavLink>
+                            
+                            {/* fim-bloco */}
+
+                            {/*início-bloco */}
 
                             {/* 33- Matéria 60 social */}
 
@@ -832,17 +850,18 @@ class Home extends Component {
                                 </div>
                             </NavLink>
 
-                            {/* 35 Matéria 65 segurança e defesa */}
-                            <NavLink to="governo-reforca-operacoes-na-faixa-de-fronteira" id="governo-reforca-operacoes-na-faixa-de-fronteira" className="picture-item grayscale square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
-                                <div className="type_eight type">
-                                    <div className="float-title float-title-one">
-                                        <strong>Governo reforça operações</strong> na faixa de fronteira
+                            {/* 29 Matéria 40- 11 economia */}
+
+                            <NavLink to="teto-dos-gastos" id="teto-dos-gastos" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_eight_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Teto dos gastos <strong>ajusta as contas públicas</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/35-governo-reforca.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/29-teto-gastos.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}governo-reforca-operacoes-na-faixa-de-fronteira`} component={GovernoReforcaOperacoesNaFaixaDeFronteira} />
+                                        <Route path={`${this.props.match.path}teto-dos-gastos`} component={TetoDosGastos} />
                                     </div>
                                 </div>
                             </NavLink>
@@ -880,8 +899,8 @@ class Home extends Component {
 
                             {/* 38- Matéria 71 infraestrutura */}
 
-                            <NavLink to="integracao-do-sao-francisco-mais-vida-no-nordeste" id="integracao-do-sao-francisco-mais-vida-no-nordeste" className="picture-item grayscale square" tabIndex="0" data-groups='["infraestrutura"]'>
-                                <div className="type_two type">
+                            <NavLink to="integracao-do-sao-francisco-mais-vida-no-nordeste" id="integracao-do-sao-francisco-mais-vida-no-nordeste" className="picture-item grayscale square" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_one type">
                                     <div className="float-title float-title-one">
                                         Integração do São Francisco: <strong>mais vida no Nordeste</strong>
                                     </div>
@@ -898,7 +917,7 @@ class Home extends Component {
                             {/* 39 - Matéria 75 meio-ambiente */}
 
                             <NavLink to="multas-ambientais-viram-investimento" id="multas-ambientais-viram-investimento" className="picture-item grayscale square" tabIndex="0" data-groups='["meio-ambiente"]'>
-                                <div className="type_two_alt type">
+                                <div className="type_six_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Multas ambientais <strong>viram investimento</strong>
                                     </div>
@@ -914,12 +933,12 @@ class Home extends Component {
                             {/* Matéria 40- 66 segurança e defesa */}
 
                             <NavLink to="pf-bate-recorde-historico-de-apreensao-de-drogas" id="pf-bate-recorde-historico-de-apreensao-de-drogas" className="picture-item square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
-                                <div className="type_six_alt type">
+                                <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-one">
                                         <strong>PF bate recorde</strong> histórico de apreensão de drogas
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/teto-gastos.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/40-PF-apreensao-drogas.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}pf-bate-recorde-historico-de-apreensao-de-drogas`} component={PfBateRecordeHistoricoDeApreensaoDeDrogas} />
@@ -927,127 +946,235 @@ class Home extends Component {
                                 </div>
                             </NavLink>
 
-                            {/* inicio-bloco */}
+                            {/* 11 - Matéria 26 Educação */}
 
-                            {/* 41 - Matéria 13 economia */}
-                        
-                            <NavLink to="producao-veiculos-volta-crescer" id="producao-veiculos-volta-crescer" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["economia"]'>
+                            <div onClick={this.openModal.bind(this)} to="fies-tera-350-mil" id="fies-tera-350-mil" className="picture-item square-two-columns" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_four_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
-                                        Produção de veículos <strong>volta a crescer em 2017</strong>
+                                        Fies abre 100 mil vagas a <strong>juro zero em 2018</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-87.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/11-fies-vagas.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}producao-veiculos-volta-crescer`} component={ProducaoVeiculosVoltaCrescer} />
+                                        <Route path={`${this.props.match.path}fies-tera-350-mil`} component={FiesTera350Mil} />
                                     </div>
                                 </div>
-                            </NavLink>
-                        
-                            {/* 42 - Matéria 14 economia */}
-                            <NavLink to="plano-agro-moderniza" id="plano-agro-moderniza" className="picture-item square-two-columns" tabIndex="0" data-groups='["agro"]'>
-                                <div className="type_seven_alt type">
-                                    <div className="float-title-alt float-title-one">
-                                        Plano <strong>Agro+ moderniza o agronegócio</strong> brasileiro
-                                    </div>
-                                    <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-88.png')} />
-                                    </div>
-                                    <div className="content">
-                                        <Route path={`${this.props.match.path}plano-agro-moderniza`} component={PlanoAgroModerniza} />
-                                    </div>
-                                </div>
-                            </NavLink>
+                            </div>
 
-                            {/* 43 - Matéria 17 energia */}
+                            {/* 12 Matéria 20 Agro */}
 
-                            <NavLink to="apos-20-anos-disputa" id="apos-20-anos-disputa" className="picture-item square" tabIndex="0" data-groups='["econimia"]'>
+                            <div onClick={this.openModal.bind(this)} to="agricultura-familiar-recebe" id="agricultura-familiar-recebe" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
                                 <div className="type_five_alt type">
                                     <div className="float-title-alt float-title-two-collumns">
-                                        Acordo deve <strong>injetar R$ 12 bi na economia</strong>
+                                        Agricultura familiar recebe crédito de <strong>R$ 30 bilhões</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-83.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/12-agricultura-familiar.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}apos-20-anos-disputa`} component={Apos20AnosDisputa} />
+                                        <Route path={`${this.props.match.path}agricultura-familiar-recebe`} component={AgriculturaFamiliarRecebe} />
                                     </div>
                                 </div>
-                            </NavLink>
+                            </div>
+
+                            {/* fim-bloco */}
+
+                            {/* inicio-bloco */}
+
+                            {/* 41 - Matéria 21 - AGRO */}
                         
-                            {/* 44 - Matéria 21 - AGRO */}
-                        
-                            <NavLink to="mesmo-com-operacao-carne-fraca" id="mesmo-com-operacao-carne-fraca" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
-                                <div className="type_two type">
-                                        <div className="float-title-alt float-title-one">
+                            <NavLink to="mesmo-com-operacao-carne-fraca" id="mesmo-com-operacao-carne-fraca" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_one type">
+                                        <div className="float-title float-title-one">
                                         Exportações de carne <strong>crescem 9% em 2017</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/exportacoes-carne.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/41-exportacoes-carne.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}mesmo-com-operacao-carne-fraca`} component={MesmoComOperacaoCarneFraca} />
                                     </div>
                                 </div>
                             </NavLink>
-                        
-                            {/* 45 - Matéria 22 agro */}
-        
-                            <NavLink to="com-vacinacao-brasil-recebe-certificado" id="com-vacinacao-brasil-recebe-certificado" className="picture-item grayscale square" tabIndex="0" data-groups='["agro"]'>
-                                <div className="type_eight_alt type">
-                                    <div className="float-title-alt float-title-one">
-                                        Brasil <strong>livre da febre aftosa</strong> com vacinação
+
+                            {/* 42 - matéria 12 economia*/}
+                            <NavLink to="novas-regras-pagamento" id="novas-regras-pagamento" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_two type">
+                                        <div className="float-title float-title-one">
+                                        Novas regras de pagamento <strong>fortalecem o consumo</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-84.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/42-novas-regras-pagamento.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}com-vacinacao-brasil-recebe-certificado`} component={ComVacinacaoBrasilRecebeCertificado} />
+                                        <Route path={`${this.props.match.path}novas-regras-pagamento`} component={NovasRegrasPagamento} />
                                     </div>
                                 </div>
                             </NavLink>
-                        
-                            {/* 46 - Matéria 23 agro */}
-                            <NavLink to="brasil-amplia-seu-parque" id="brasil-amplia-seu-parque" className="picture-item square-two-rows" tabIndex="0" data-groups='["energia"]'>
-                                <div className="type_one_alt type">
+
+                            {/* 43 - matéria 53 social*/}
+                            <NavLink to="com-progredir-familias-brasileiras-ganham-autonomia" id="com-progredir-familias-brasileiras-ganham-autonomia" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_eight_alt type">
                                     <div className="float-title-alt float-title-one">
+                                     Com Progredir, <strong>famílias brasileiras ganham autonomia</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/43-com-progredir.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}com-progredir-familias-brasileiras-ganham-autonomia`} component={ComProgredirFamiliasGanhamAutonomia} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 44 - matéria 23 AGRO */}
+                            <NavLink to="brasil-amplia-seu-parque" id="brasil-amplia-seu-parque" className="picture-item square-two-rows" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_seven_alt type">
+                                    <div className="float-title-alt float-title-two">
                                         Brasil se <strong>destaca na produção de energia eólica</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-86.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/44-brasil-amplia-seu-parque.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}brasil-amplia-seu-parque`} component={BrasilAmpliaSeuParque} />
                                     </div>
                                 </div>
                             </NavLink>
-                        
-                            {/* 47 - Matéria 25 educação */}
-                        
-                            <NavLink to="nova-grade-curricular-unifica" id="nova-grade-curricular-unifica" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["educacao"]'>
-                                <div className="type_three_alt type">
+
+                            {/* 45 - video 2*/}
+                            <div onClick={this.openModal.bind(this)} to="depoimento-ministro-direitos-humanos" id="depoimento-ministro-direitos-humanos" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["todos"]'>
+                                <div className="type_three type">
+                                    <div className="thumb" id="depoimento2">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/45-depoimento-ministro-direitos-humanos.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}depoimento-ministro-direitos-humanos`} component={DepoimentoMinistroDireitosHumanos} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* 46 - matéria 17*/}
+
+                            <NavLink to="apos-20-anos-disputa" id="apos-20-anos-disputa" className="picture-item grayscale square" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_one_alt type">
                                     <div className="float-title-alt float-title-one">
+                                        Acordo deve <strong>injetar R$ 12 bi na economia</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/46-apos-20-anos-disputa.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}apos-20-anos-disputa`} component={Apos20AnosDisputa} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 47 - vídeo 3*/}
+                            <div onClick={this.openModal.bind(this)} to="depoimento-ministro-turismo" id="depoimento-ministro-turismo" className="picture-item square" tabIndex="0" data-groups='["todos"]'>
+                                <div className="type_six type">
+                                    <div className="thumb" id="depoimento3">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/47-depoimento-ministro-turismo.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}ministro-turismo`} component={DepoimentoMinistroTurismo} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* 48 - */}
+        
+                            <NavLink to="com-vacinacao-brasil-recebe-certificado" id="com-vacinacao-brasil-recebe-certificado" className="picture-item square" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_two_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Brasil <strong>livre da febre aftosa</strong> com vacinação
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/48-com-vacinacao-brasil-recebe-certificado.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}com-vacinacao-brasil-recebe-certificado`} component={ComVacinacaoBrasilRecebeCertificado} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 49 - */}
+
+                            <NavLink to="brasil-mais-turismo" id="brasil-mais-turismo" className="picture-item square-two-columns" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_four_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        Brasil + Turismo: <strong>empregos e dinamismo para o setor</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/49-brasil-mais-turismo.png')} />
+                                    </div>
+
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}brasil-mais-turismo`} component={BrasilMaisTurismo} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 50 */}
+
+                            <NavLink to="avancar-alavanca-crescimento" id="avancar-alavanca-crescimento" className="picture-item square-two-columns" tabIndex="0" data-groups='["saude"]'>
+                                <div className="type_five_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        Brasil + Turismo: <strong>empregos e dinamismo para o setor</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/50-avancar-alavanca-crescimento.png')} />
+                                    </div>
+
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}avancar-alavanca-crescimento`} component={AvancarAlavancaCrescimento} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* fim-bloco */}
+
+                            {/* início-bloco */}
+
+                            {/* 51 - Matéria 25 educação */}
+                        
+                            <NavLink to="nova-grade-curricular-unifica" id="nova-grade-curricular-unifica" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_one type">
+                                    <div className="float-title float-title-one">
                                         Nova grade curricular <strong>unifica ensino no Brasil</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-89.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/51-nova-grade-curricular-unifica.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}nova-grade-curricular-unifica`} component={NovaGradeCurricularUnifica} />
                                     </div>
                                 </div>
                             </NavLink>
-                        
-                            {/* 48 - Matéria 28 educação */}
-                        
-                            <NavLink to="programa-medioTec-permite" id="programa-medioTec-permite" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
+
+                            {/* 52 -vídeo 6*/}
+
+                            <div onClick={this.openModal.bind(this)} to="depoimento-ministro-industria-comercio-exterior-servicos" id="depoimento-ministro-industria-comercio-exterior-servicos" className="picture-item square" tabIndex="0" data-groups='["todos"]'>
                                 <div className="type_two type">
-                                    <div className="float-title-alt float-title-one">
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/52-depoimento-ministro-industria-comercio-exterior-servicos.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}depoimento-ministro-industria-comercio-exterior-servicos`} component={DepoimentoMinistroIndustriaComercioExteriorServicos} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* 53 - Matéria 28 educação*/}
+                        
+                           <NavLink to="programa-medioTec-permite" id="programa-medioTec-permite" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_eight type">
+                                    <div className="float-title float-title-one">
                                         MedioTec oferece <strong>formação técnica para estudantes</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-89.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/53-mediotec.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}programa-medioTec-permite`} component={ProgramaMedioTecPermite} />
@@ -1055,228 +1182,309 @@ class Home extends Component {
                                 </div>
                             </NavLink>
 
-
-                            {/* 49 - Matéria 30 educacao */}
+                            {/* 54 - Matéria 30 educacao */}
                         
-                            <NavLink to="governo-investe-na-formacao" id="governo-investe-na-formacao" className="picture-item grayscale square" tabIndex="0" data-groups='["educacao"]'>
-                                <div className="type_two_alt type">
-                                    <div className="float-title-alt float-title-one">
+                            <NavLink to="governo-investe-na-formacao" id="governo-investe-na-formacao" className="picture-item square-two-rows" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_seven_alt type">
+                                    <div className="float-title-alt float-title-two">
                                         Governo <strong>investe R$ 1 bi na formação</strong> de professores
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-95.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/54-governo-investe-na-formacao.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-investe-na-formacao`} component={GovernoInvesteNaFormacao} />
                                     </div>
                                 </div>
                             </NavLink>
-                        
-                            {/* 50 - Matéria 31 saúde */}
-                        
-                            <NavLink to="governo-amplia-participacao" id="governo-amplia-participacao" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
-                                <div className="type_six_alt type">
+
+                            {/* 55 - vídeo 4*/}
+
+                            <div onClick={this.openModal.bind(this)} to="depoimento-ministro-minas-energia" id="depoimento-ministro-minas-energia" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["todos"]'>
+                                <div className="type_three type">
+                                    <div className="thumb type_three" id="depoimento4">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/55-depoimento-ministro-minas-energia.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}depoimento-ministro-minas-energia`} component={DepoimentoMinistroMinasEnergia} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* 56 - Matéria 31 saúde */}
+
+                            <NavLink to="governo-amplia-participacao" id="governo-amplia-participacao" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_one_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Mais <strong>Brasileiros no Mais Médicos</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-92.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/56-governo-amplia-participacao.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-amplia-participacao`} component={GovernoAmpliaParticipacao} />
                                     </div>
                                 </div>
                             </NavLink>
-        
-                            {/* fim-bloco */}
 
-                            {/* inicio-bloco */}
+                            {/* 57 - Matéria 32 saude */}
                             
-                            {/* 51 - Matéria 32 saude */}
-                            
-                            <NavLink to="governo-amplia-investimento" id="governo-amplia-investimento" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["saude"]'>
-                                <div className="type_four_alt type">
-                                    <div className="float-title-alt float-title-two-collumns">
-                                        Mais <strong>recursos para a Saúde</strong> dos brasileiros
+                            <NavLink to="governo-amplia-investimento" id="governo-amplia-investimento" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_six_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>Mais recursos para a Saúde</strong> dos brasileiros
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-116.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/57-governo-amplia-investimento.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-amplia-investimento`} component={GovernoAmpliaInvestimento} />
                                     </div>
                                 </div>
                             </NavLink>
-                            
-                            {/* 52 - Matéria 42 saude */}
-                            <NavLink to="repasses-na-saude-ganham-reforco" id="repasses-na-saude-ganham-reforco" className="picture-item square-two-columns" tabIndex="0" data-groups='["saude"]'>
-                                <div className="type_five type">
-                                    <div className="float-title-alt float-title-two-collumns">
+
+                            {/* 58 - Matéria 42 saude */}
+
+                            <NavLink to="repasses-na-saude-ganham-reforco" id="repasses-na-saude-ganham-reforco" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_two_alt type">
+                                    <div className="float-title-alt float-title-one">
                                         Repasses na Saúde <strong>reforçam a atenção básica</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-93.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/58-repasses-na-saude-ganham-reforco.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}repasses-na-saude-ganham-reforco`} component={RepassesNaSaudeGanhamReforco} />
                                     </div>
                                 </div>
                             </NavLink>
-                            
-                            {/* 53 - Matéria 35 saude */}
 
-                            <NavLink to="reajuste-no-preco-medio-de-medicamento" id="reajuste-no-preco-medio-de-medicamento" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
-                                <div className="type_seven_alt type">
-                                    <div className="float-title-alt float-title-one">
-                                        Medicamentos <strong>reajustados abaixo da inflação</strong>
-                                    </div>
-                                    <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-100.png')} />
-                                    </div>
-                                    <div className="content">
-                                        <Route path={`${this.props.match.path}reajuste-no-preco-medio-de-medicamento`} component={ReajusteNoPrecoMedioDeMedicamento} />
-                                    </div>
-                                </div>
-                            </NavLink>
-                            
-                            {/* 54 - Matéria 39 saude */}
+                            {/* 59 - Matéria 13 economia */}
                         
-                            <NavLink to="governo-investe-em-teste-rapido" id="governo-investe-em-teste-rapido" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
-                                <div className="type_two_alt type">
-                                    <div className="float-title-alt float-title-one">
-                                        Teste rápido para zika; <strong>assistência garantida</strong>
+                            <NavLink to="producao-veiculos-volta-crescer" id="producao-veiculos-volta-crescer" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_four_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        Produção de veículos <strong>volta a crescer em 2017</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-93.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/59-producao-veiculos-volta-crescer.png')} />
                                     </div>
                                     <div className="content">
-                                        <Route path={`${this.props.match.path}governo-investe-em-teste-rapido`} component={GovernoInvesteEmTesteRapido} />
+                                        <Route path={`${this.props.match.path}producao-veiculos-volta-crescer`} component={ProducaoVeiculosVoltaCrescer} />
                                     </div>
                                 </div>
                             </NavLink>
-                            
-                            {/* 45 - Matéria 40 saude */}
-                            <NavLink to="governo-adquire-repelentes-para-gestante" id="governo-adquire-repelentes-para-gestante" className="picture-item grayscale square" tabIndex="0" data-groups='["saude"]'>
-                                <div className="type_eight_alt type">
+                        
+                            {/* 60 - Matéria 14 economia */}
+                            <NavLink to="plano-agro-moderniza" id="plano-agro-moderniza" className="picture-item square-two-columns" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_five_alt type">
                                     <div className="float-title-alt float-title-one">
+                                        Plano <strong>Agro+ moderniza o agronegócio</strong> brasileiro
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/60-plano-agro-moderniza.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}plano-agro-moderniza`} component={PlanoAgroModerniza} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* início-bloco */}
+
+                            {/* 61 - Matéria 40 saude */}
+                            <NavLink to="governo-adquire-repelentes-para-gestante" id="governo-adquire-repelentes-para-gestante" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_one type">
+                                    <div className="float-title float-title-one">
                                         Gestantes de <strong>baixa renda recebem repelentes</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-98.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/61-governo-adquire-repelentes-para-gestante.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-adquire-repelentes-para-gestante`} component={GovernoAdquireRepelentesParaGestante} />
                                     </div>
                                 </div>
                             </NavLink>
+
+                            {/* 62 - vídeo 5*/}
                             
-                            {/* 56 - Matéria 41 saude */}
-                            <NavLink to="governo-habilita-upas" id="governo-habilita-upas" className="picture-item square-two-rows" tabIndex="0" data-groups='["saude"]'>
-                                <div className="type_one_alt type">
+                            <div onClick={this.openModal.bind(this)} to="depoimento-ministro-fazenda" id="depoimento-ministro-fazenda" className="picture-item square" tabIndex="0" data-groups='["todos"]'>
+                                <div className="type_two type">
+                                    <div className="thumb" id="depoimento5">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/62-depoimento-ministro-fazenda.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}depoimento-ministro-fazenda`} component={DepoimentoMinistroDaFazenda} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* 63 - Matéria 35 saude */}
+                            <NavLink to="medicamentos-reajustados" id="medicamentos-reajustados" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_eight_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Medicamentos reajustados <strong>abaixo da inflação</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/63-medicamentos-reajustados.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}medicamentos-reajustados`} component={MedicamentosReajustadosAbaixoInflacao} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 64 - Matéria 41 saude */}
+                            <NavLink to="governo-habilita-upas" id="governo-habilita-upas" className="picture-item square-two-rows" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_seven_alt type">
                                     <div className="float-title-alt float-title-one">
                                         Mais <strong>206 UPAs 24 horas habilitadas</strong> a funcionar
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-104.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/64-governo-habilita-upas.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-habilita-upas`} component={GovernoHabilitaUpas} />
                                     </div>
                                 </div>
                             </NavLink>
+
+                            {/* 65 - vídeo 6*/}
                             
-                            {/* 57 - Matéria 44 saude */}
+                            <div onClick={this.openModal.bind(this)} to="depoimento-ministro-saude" id="depoimento-ministro-saude" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["todos"]'>
+                                <div className="type_three type">
+                                    <div className="thumb" id="depoimento6">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/65-depoimento-ministro-saude.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}depoimento-ministro-saude`} component={DepoimentoMinistroDaFazenda} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* 66 - vídeo 7*/}
+                            
+                            <div onClick={this.openModal.bind(this)} to="depoimento-ministro-educacao" id="depoimento-ministro-educacao" className="picture-item square" tabIndex="0" data-groups='["todos"]'>
+                                <div className="type_one type">
+                                    <div className="thumb" id="depoimento7">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/66-depoimento-ministro-educacao.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}depoimento-ministro-educacao`} component={DepoimentoMinistroEducacao} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* 67 - Matéria 44 saude */}
                         
-                            <NavLink to="governo-oferece-melhor-tratamento" id="governo-oferece-melhor-tratamento" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["educacao"]'>
-                                <div className="type_three_alt type">
-                                    <div className="float-title-alt float-title-one">
+                            <NavLink to="governo-oferece-melhor-tratamento" id="governo-oferece-melhor-tratamento" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_six type">
+                                    <div className="float-title float-title-one">
                                         SUS ganha melhor <strong>tratamento contra HIV/Aids</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-110.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/67-governo-oferece-melhor-tratamento.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-oferece-melhor-tratamento`} component={GovernoOfereceMelhorTratamento} />
                                     </div>
                                 </div>
                             </NavLink>
-                            
-                            {/* 58 - Matéria 45 gestao */}
+
+                            {/* 68 - Matéria 39 saude */}
                         
-                            <NavLink to="cartorios-de-todo-o-brasil-poderao-emitir" id="cartorios-de-todo-o-brasil-poderao-emitir" className="picture-item grayscale square" tabIndex="0" data-groups='["gestao"]'>
+                            <NavLink to="governo-investe-em-teste-rapido" id="governo-investe-em-teste-rapido" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
                                 <div className="type_two_alt type">
                                     <div className="float-title-alt float-title-one">
+                                        Teste rápido para zika; <strong>assistência garantida</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/68-governo-investe-em-teste-rapido.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}governo-investe-em-teste-rapido`} component={GovernoInvesteEmTesteRapido} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 69 - Matéria 45 gestao */}
+                        
+                            <NavLink to="cartorios-de-todo-o-brasil-poderao-emitir" id="cartorios-de-todo-o-brasil-poderao-emitir" className="picture-item square-two-columns" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_four_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
                                         Cartórios poderão <strong>emitir documentos de identidade</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-96.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/69-cartorios-de-todo-o-brasil-poderao-emitir.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}cartorios-de-todo-o-brasil-poderao-emitir`} component={CartoriosDeTodoOBrasilPoderaoEmitir} />
                                     </div>
                                 </div>
                             </NavLink>
-                            
-                            {/* 59 - Matéria 47 gestão */}
+
+                            {/* 70 - matéria 49 gestão e desburocratização*/}
+
+                            <div onClick={this.openModal.bind(this)} to="reforma-administrativa" id="reforma-administrativa" className="picture-item square-two-columns" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_five_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        Reforma administrativa <strong>reduz despesas do Governo</strong>
+                                    </div>  
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/70-reforma-administrativa.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}reforma-administrativa`} component={ReformaAdministrativa} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* fim-bloco */}
+
+                            {/* início-bloco */}
+
+                            {/* 71 - Matéria 47 gestão */}
                         
                             <NavLink to="novo-formato-da-carteira-de-habilitacao" id="novo-formato-da-carteira-de-habilitacao" className="picture-item grayscale square" tabIndex="0" data-groups='["gestao"]'>
-                                <div className="type_two_alt type">
+                                <div className="type_one_alt type">
                                     <div className="float-title-alt float-title-one">
                                         CNH ganha chip e <strong>mais segurança contra fraudes</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-108.png')} />
+                                        <img alt="" src={require('../assets/img/thumb/71-novo-formato-da-carteira-de-habilitacao.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}novo-formato-da-carteira-de-habilitacao`} component={NovoFormatoDaCarteiraDeHabilitacao} />
                                     </div>
                                 </div>
                             </NavLink>
-                            
-                            {/* 60 - Matéria 48 gestao */}
-                        
-                            <NavLink to="governo-lanca-documentos-digitais" id="governo-lanca-documentos-digitais" className="picture-item square" tabIndex="0" data-groups='["saude"]'>
-                                <div className="type_six_alt type">
-                                    <div className="float-title-alt float-title-one">
-                                        Documentos digitais <strong>facilitam a vida do brasileiro</strong>
-                                    </div>
-                                    <div className="thumb">
-                                        <img alt="" src={require('../assets/img/thumb/rectangle-2-copy-114.png')} />
-                                    </div>
-                                    <div className="content">
-                                        <Route path={`${this.props.match.path}governo-lanca-documentos-digitais`} component={GovernoLancaDocumentosDigitais} />
-                                    </div>
-                                </div>
-                            </NavLink>
-                            
-                            {/* fim-bloco */}
 
-                            {/* inicio-bloco */}
+                            {/* 72 - Matéria 50 gestao */}
                             
-                            {/* 61 - Matéria 50 gestao */}
-                            
-                            <NavLink to="governo-acata-conselhao" id="governo-acata-conselhao" className="picture-item grayscale square-two-columns" tabIndex="0" data-groups='["gestao"]'>
-                                <div className="type_four_alt type">
-                                    <div className="float-title-alt float-title-two-collumns">
-                                        <strong>Governo acata 92% das recomendações</strong> do Conselhão
+                            <NavLink to="governo-acata-conselhao" id="governo-acata-conselhao" className="picture-item square" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_two_alt type">
+                                    <div className="float-title-alt float-title-four">
+                                    Governo acata 92% das <strong>recomendações do Conselhão</strong>
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-109.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/72-governo-acata-conselhao.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}governo-acata-conselhao`} component={GovernoAcataConselhao} />
                                     </div>
                                 </div>
                             </NavLink>
-                            
-                            {/* 62 - Matéria 51 gestao */}
-                            <NavLink to="taxigov-gera-reducao-de-custos" id="taxigov-gera-reducao-de-custos" className="picture-item square-two-columns" tabIndex="0" data-groups='["gestao"]'>
-                                <div className="type_five type">
-                                    <div className="float-title float-title-two-collumns">
-                                        TaxiGov traz <strong>eficiência e economia para o Governo</strong>
+
+                            {/* 73 - Matéria 51 gestao */}
+
+                            <NavLink to="taxigov-gera-reducao-de-custos" id="taxigov-gera-reducao-de-custos" className="picture-item square" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_eight_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        TaxiGov traz eficiência e economia para o Governo
                                     </div>
                                     <div className="thumb">
-                                        <img alt="" className="column" src={require('../assets/img/thumb/rectangle-2-copy-110.png')} />
+                                        <img alt="" className="column" src={require('../assets/img/thumb/73-taxigov-gera-reducao-de-custos.png')} />
                                     </div>
                                     <div className="content">
                                         <Route path={`${this.props.match.path}taxigov-gera-reducao-de-custos`} component={TaxigovGeraReducaoDeCustos} />
@@ -1284,12 +1492,542 @@ class Home extends Component {
                                 </div>
                             </NavLink>
 
-                            {/* fim-bloco - cuidado ao montar, observe a ordem dos blocos! */}
+                            {/* 74 - Matéria 48 gestao */}
+                        
+                            <NavLink to="governo-lanca-documentos-digitais" id="governo-lanca-documentos-digitais" className="picture-item square-two-rows" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_seven_alt type">
+                                    <div className="float-title-alt float-title-two">
+                                        Documentos digitais <strong>facilitam a vida do brasileiro</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/74-governo-lanca-documentos-digitais.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}governo-lanca-documentos-digitais`} component={GovernoLancaDocumentosDigitais} />
+                                    </div>
+                                </div>
+                            </NavLink>
 
-                            <div id="video-relogio" className="picture-item alternate center" data-groups='["todos"]'>
-                                <img alt="" className="play-button2 play" src={require('../assets/img/thumb/relogio_thumb.jpg')} />
+                            {/* ÚLTIMA LEVA */}
+
+                            {/* 75 - matéria 54 social*/}
+
+                            <NavLink to="plataforma-de-servicos" id="plataforma-de-servicos" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_three_alt type">
+                                    <div className="float-title-alt float-title-three">
+                                        <strong>Plataforma de serviços</strong> dá suporte aos trabalhadores
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/75-plataforma-de-servicos.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}plataforma-de-servicos`} component={PlataformaDeServicos} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 76 - matéria 61 social*/}
+
+                            <NavLink to="crianca-feliz" id="crianca-feliz" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_one_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Criança Feliz cuida do <strong>futuro do Brasil</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/76-crianca-feliz.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}crianca-feliz`} component={CriancaFeliz} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 77 - matéria 58 social */}
+                            
+                            <NavLink to="melhorias-para-o-BPC" id="melhorias-para-o-BPC" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_six type">
+                                    <div className="float-title float-title-one">
+                                        Novas regras trazem melhorias para o BPC
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/77-melhorias-para-o-BPC.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}melhorias-para-o-BPC`} component={MelhoriasParaOBPC} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 78 */}
+
+                            <NavLink to="com-progredir-familias-ganham-autonomia" id="com-progredir-familias-ganham-autonomia" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_two_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Com Progredir, famílias <strong>brasileiras ganham autonomia</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/78-com-progredir-familias-ganham-autonomia.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}com-progredir-familias-ganham-autonomia`} component={ComProgredirFamiliasGanhamAutonomia} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 79 - matéria 62 ciência e tecnologia*/}
+                        
+                            <NavLink to="internet-para-todos" id="internet-para-todos" className="picture-item square-two-columns" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_four_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Internet para todos conecta <strong>cantos remotos do País</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/79-internet-para-todos.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}internet-para-todos`} component={InternetParaTodos} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 80 - matéria 23 agro*/}
+
+                            <div onClick={this.openModal.bind(this)} to="moderniza-agronegocio-brasileiro" id="moderniza-agronegocio-brasileiro" className="picture-item square-two-columns" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_five_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        Plano Agro+ mordeniza o <strong>agronegócio brasileiro</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/80-moderniza-agronegocio-brasileiro.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}moderniza-agronegocio-brasileiro`} component={MordenizaAgronegocioBrasileiro} />
+                                    </div>
+                                </div>
                             </div>
 
+                            {/* fim-bloco */}
+                            
+                            {/* início-bloco */}
+                            {/* 81 - matéria 76 de meio ambiente */}
+                        
+                            <NavLink to="brasil-ratifica-acordo-de-paris" id="brasil-ratifica-acordo-de-paris" className="picture-item square" tabIndex="0" data-groups='["meio-ambiente"]'>
+                                <div className="type_one_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>Brasil ratifica acordo</strong> de Paris sobre o clima
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/81-brasil-ratifica-acordo-de-paris.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}brasil-ratifica-acordo-de-paris`} component={BrasilRatificaAcordoDeParis} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 82 - matéria 77 de meio ambiente*/}
+                            
+                            <div onClick={this.openModal.bind(this)} to="amazonia-legal" id="amazonia-legal" className="picture-item square" tabIndex="0" data-groups='["meio-ambiente"]'>
+                                <div className="type_two_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>Desmatamento cai 16%</strong> na Amazônia Legal
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/82-amazonia-legal.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}amazonia-legal`} component={AmazoniaLegal} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* 83 - materia 73 infraestrutura*/}
+                            <NavLink to="saneamento-basico-a-populacao" id="saneamento-basico-a-populacao" className="picture-item square" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_eight type">
+                                    <div className="float-title float-title-one">
+                                        Programa leva <strong>saneamento básico à população</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/83-saneamento-basico-a-populacao.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}saneamento-basico-a-populacao`} component={SaneamentoBasicoAPopulacao} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 84 - matéria 80 de internacional*/}
+                            <NavLink to="acordos-impulsionam-brasil-exterior" id="acordos-impulsionam-brasil-exterior" className="picture-item square-two-rows" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_seven_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Acordos impulsionam <strong>Brasil no exterior</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/84-acordo-impulsionam-brasil-exterior.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}acordos-impulsionam-brasil-exterior`} component={AcordoImpulsionamBrasilExterior} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 85 - matéria 72 de infraestrutura */}
+                            
+                            <NavLink to="novo-chico" id="novo-chico" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_three_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>Novo Chico: R$7 bilhões </strong>para revitalização
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/85-novo-chico.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}novo-chico`} component={NovoChico} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 86 -matéria 70 de infraestrutura */}
+                            
+                            <NavLink to="aeroportos-regionais-recebem" id="aeroportos-regionais-recebem" className="picture-item grayscale square" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_one_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                    Aeroportos regionais <strong>recebem R$800 milhões</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/86-aeroportos-regionais-recebem.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}aeroportos-regionais-recebem`} component={AeroportosRegionaisRecebem} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 87 - matéria 87 de cultura */}
+                        
+                            <NavLink to="cais-do-valongo-patrimonio-mundial" id="cais-do-valongo-patrimonio-mundial" className="picture-item square" tabIndex="0" data-groups='["cultura"]'>
+                                <div className="type_six type">
+                                    <div className="float-title float-title-one">
+                                        <strong>Cais do Valongo é declarado </strong> Patrimônio Mundial da Humanidade
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/87-cais-do-valongo-patrimonio-mundial.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}cais-do-valongo-patrimonio-mundial`} component={CaisDoValongoPatrimonioMundial} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 88 - matéria 68 de segurança e defesa */}
+                        
+                            <NavLink to="mulheres-poderao-chegar-ao-comando-exercito" id="mulheres-poderao-chegar-ao-comando-exercito" className="picture-item square" tabIndex="0" data-groups='["seguranca-e-defesa"]'>
+                                <div className="type_two_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Mulheres poderão chegar ao <strong>comando do Exército</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/88-mulheres-poderao-chegar-ao-comando-exercito.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}mulheres-poderao-chegar-ao-comando-exercito`} component={MulheresPoderaoChegarAoComandoExercito} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 89 - matéria 81 de internacional*/}
+                        
+                            <NavLink to="comite-coordenar-imigracao" id="comite-coordenar-imigracao" className="picture-item square-two-columns" tabIndex="0" data-groups='["gestao"]'>
+                                <div className="type_four_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        <strong>Governo cria comitê </strong> para coordenar imigração
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/89-comite-coordenar-imigracao.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}comite-coordenar-imigracao`} component={ComiteCoordenarMigracao} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 90 - matéria 85 de cultura */}
+
+                            <div onClick={this.openModal.bind(this)} to="lei-rouanet-aperfeicoada" id="lei-rouanet-aperfeicoada" className="picture-item square-two-columns" tabIndex="0" data-groups='["cultura"]'>
+                                <div className="type_five_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        <strong>Lei Rouanet de incentivo </strong>à cultura é aperfeiçoada
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/90-lei-rouanet-aperfeicoada.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}lei-rouanet-aperfeicoada`} component={LeiRouanetAperfeicoada} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* fim-bloco */}
+                            
+                            {/* início-bloco */}
+                            
+                            {/* 91 - matéria 82 de internacional*/}
+                        
+                            <NavLink to="brasil-e-china-assinam-acordo" id="brasil-e-china-assinam-acordo" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_one_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>Brasil e China assinam acordos</strong> de investimento e cooperação
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/91-brasil-e-china-assinam-acordo.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}brasil-e-china-assinam-acordo`} component={BrasilEChinaAssinamAcordo} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 92 - matéria 67 segurança e defesa */}
+                            
+                            <div onClick={this.openModal.bind(this)} to="alerta-de-risco-por-SMS" id="alerta-de-risco-por-SMS" className="picture-item square" tabIndex="0" data-groups='["seguranca-e-desfesa"]'>
+                                <div className="type_two_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>Alerta de risco por SMS é</strong> ampliado para todo o País
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/92-alerta-de-risco-por-SMS.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}alerta-de-risco-por-SMS`} component={AlertaDeRiscoPorSMS} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* 93 - matéria 92 de turismo*/}
+                            <NavLink to="turistas-estrangeiros-gastam" id="turistas-estrangeiros-gastam" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_eight_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Turistas estrangeiros gastam soma recorde no Brasil
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/93-turistas-estrangeiros-gastam.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}turistas-estrangeiros-gastam`} component={TuristasGastamSomaRecorde} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 94 - matéria 88 de cultura*/}
+                            <NavLink to="cinema-nacional-bate-recorde" id="cinema-nacional-bate-recorde" className="picture-item square-two-rows" tabIndex="0" data-groups='["cultura"]'>
+                                <div className="type_seven_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>Cinema nacional bate recorde</strong> de lançamentos em 2017
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/94-cinema-nacional-bate-recorde.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}cinema-nacional-bate-recorde`} component={CinemaNacionalBateRecorde} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 95 - matéria 91 de turismo*/}
+                            
+                            <NavLink to="brasil-registra-recorde-de-turistas" id="brasil-registra-recorde-de-turistas" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_three_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Brasil registra recorde <strong>de 6,5 milhões de turistas </strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/95-brasil-registra-recorde-de-turistas.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}brasil-registra-recorde-de-turistas`} component={BrasilRegistraRecordeDeTuristas} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 96 - matéria 96 de esporte*/}
+                            
+                            <NavLink to="segundo-tempo-beneficia" id="segundo-tempo-beneficia" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_one_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>Segundo tempo beneficia </strong> mais de 109 mil jovens
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/96-segundo-tempo-beneficia.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}segundo-tempo-beneficia`} component={SegundoTempoBeneficia} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 97 - matéria 84 de internacional */}
+                        
+                            <NavLink to="economia-brasileira-avanca-no-mundo" id="economia-brasileira-avanca-no-mundo" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_six type">
+                                    <div className="float-title float-title-five">
+                                        Novos acordos permitem <strong>economia brasileira avançar no mundo</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/97-economia-brasileira-avanca-no-mundo.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}economia-brasileira-avanca-no-mundo`} component={EconomiaBrasileiraAvancaNoMundo} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 98 - matéria 83 de internacional */}
+                        
+                            <NavLink to="comercio-exterior-impulsionado" id="comercio-exterior-impulsionado" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_two_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                       Comércio exterior é <strong>impulsionado com novas medidas</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/98-comercio-exterior-impulsionado.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}comercio-exterior-impulsionado`} component={ComercioExteriorImpulsionado} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 99 - matéria 93 de turismo*/}
+                        
+                            <NavLink to="parques-nacionais-tem-recorde-de-visitacao" id="parques-nacionais-tem-recorde-de-visitacao" className="picture-item square-two-columns" tabIndex="0" data-groups='["meio-ambiente"]'>
+                                <div className="type_four_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                      Parques Nacionais têm <strong>recorde de visitação em 2017</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/99-parques-nacionais-tem-recorde-de-visitacao.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}parques-nacionais-tem-recorde-de-visitacao`} component={ParquesNacionaisTemRecordeDeVisitacao} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 100 - matéria 78 de meio ambiente */}
+
+                            <div onClick={this.openModal.bind(this)} to="brasil-supera-meta-da-onu" id="brasil-supera-meta-da-onu" className="picture-item square-two-columns" tabIndex="0" data-groups='["meio-ambiente"]'>
+                                <div className="type_five_alt type">
+                                    <div className="float-title-alt float-title-two-collumns">
+                                        <strong>Brasil supera meta da ONU </strong>sobre conservação marinha
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/100-brasil-supera-meta-da-onu.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}brasil-supera-meta-da-onu`} component={BrasilSuperaMetaOnu} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/*fim-bloco*/}
+
+                            {/*início-bloco*/}
+
+                            {/* 101 - matéria 96 de turismo*/}
+                        
+                            <NavLink to="mais-turismo-e-cultura" id="mais-turismo-e-cultura" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_one_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>Mais turismo e cultura</strong> no Rio de Janeiro a Janeiro
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/101-mais-turismo-e-cultura.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}mais-turismo-e-cultura`} component={MaisTurismoECultura} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 102 -matéria 90 de turismo */}
+                            
+                            <div onClick={this.openModal.bind(this)} to="e-visa-aumenta-turismo" id="e-visa-aumenta-turismo" className="picture-item square" tabIndex="0" data-groups='["economia"]'>
+                                <div className="type_two_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>E-visa aumenta turismo no Brasil</strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/102-e-visa-aumenta-turismo.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}e-visa-aumenta-turismo`} component={EVisaAumentaTurismo} />
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* 103 - matéria 94 de turismo*/}
+                            <NavLink to="pronatec-turismo-oferece" id="pronatec-turismo-oferece" className="picture-item square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_eight_alt type">
+                                    <div className="float-title-alt float-title-four">
+                                        <strong>Pronatec Turismo oferece</strong> mais de 200 mil vagas
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/103-pronatec-turismo-oferece.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}pronatec-turismo-oferece`} component={PronatecTurismoOferece} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 104 - matéria 97 de esporte */}
+                            <NavLink to="esporte-e-cidadania" id="esporte-e-cidadania" className="picture-item square-two-rows" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_seven_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        <strong>Esporte e Cidadania </strong>para Todos apoiará 15,6 mil jovens
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/104-esporte-e-cidadania.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}esporte-e-cidadania`} component={EsporteECidadania} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 105 - matéria 98 de esporte*/}
+                            
+                            <NavLink to="bolsa-atleta-2017" id="bolsa-atleta-2017" className="picture-item square-two-rows-and-columns" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_three_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Bolsa Atleta <strong>contempla 5.830 atletas em 2017 </strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" className="column" src={require('../assets/img/thumb/105-bolsa-atleta-2017.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}bolsa-atleta-2017`} component={BolsaAtleta2017} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* 106 - matéria 99 de esporte*/}
+                            
+                            <NavLink to="forcas-no-esporte" id="forcas-no-esporte" className="picture-item grayscale square" tabIndex="0" data-groups='["social"]'>
+                                <div className="type_one_alt type">
+                                    <div className="float-title-alt float-title-one">
+                                        Forças no Esporte: <strong>mais atividades para os estudantes </strong>
+                                    </div>
+                                    <div className="thumb">
+                                        <img alt="" src={require('../assets/img/thumb/106-forcas-no-esporte.png')} />
+                                    </div>
+                                    <div className="content">
+                                        <Route path={`${this.props.match.path}forcas-no-esporte`} component={ForcasNoEsporte} />
+                                    </div>
+                                </div>
+                            </NavLink>
+
+                            {/* fim-bloco - cuidado ao montar, observe a ordem dos blocos! */}
                             {/* FIM PUBLICAÇÃO */}
                         </div>
 

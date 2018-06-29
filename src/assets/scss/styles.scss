@@ -1,13 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway:400,500,900');
 
-html {
-    background-color: #f9f9f9;
-}
-html, body {
-    height: 100%;
-    width: 100%;
-}
-
 * {
     outline: none;
 }
@@ -16,16 +8,14 @@ html, body {
     display: none;
 }
 
-html {
-    background-color: #F1F1F1;
-    overflow-x: hidden;
-    overflow-y: hidden;
+.html {
+    
 }
 
-body {
+
+.body {
     margin: 0;
-    font:  100%;
-    background-color: #f9f9f9;
+    font-size:  100%;
 }
 
 /* mouse */
@@ -171,8 +161,8 @@ body {
     text-align: center;
     align-content: center;
     color: black;
-    -webkit-transition: width 2s, height 4s; /* Safari */
-    transition: width 2s, height 4s;}
+    -webkit-transition: width 0s, height 4s; /* Safari */
+    transition: width 0s, height 4s;}
 
 .container.collapsed {
     max-height: 0;
@@ -253,6 +243,7 @@ body {
 .simple-text {
     font-size: 1.125rem;
     line-height: 1.6;
+    padding-bottom: 1.4rem;
 }
 
 .eye-text {
@@ -261,6 +252,7 @@ body {
     margin-left: -10%;
     margin-right: -10%;
     text-align: center;
+    padding-bottom: 1.4rem;
 }
 
 .small-title-text {
@@ -270,10 +262,10 @@ body {
 
 .smaller-title-text {
     font-family: Raleway;
-    font-weight: 900;
-    letter-spacing: 0.21875em;
+    font-weight: 500;
+    letter-spacing: normal;
     font-size: 0.675rem;
-/*    color: #ffffff;*/
+    color: #6f6f6f;
 }
 
 .hide {
@@ -450,7 +442,6 @@ body {
 }
 
 .content {
-    overflow-clip: initial!important;
     position:relative;
     font-size: 100%;
     // min-height: 50vh;
@@ -487,13 +478,13 @@ body {
 }
 
 #shuffle-container {
+    overflow: hidden!important;
     background-color: #f9f9f9;
-    overflow: initial!important;
-    position: static;
+    position: sticky;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    min-height: 1500px;
+    max-height: inherit;
     z-index: 2;
     a {
         text-decoration: none;
@@ -510,15 +501,18 @@ body {
 }
 
 #conteudo {
+    
     background-color:#F1F1F1;
     z-index: 1;
 }
 
 #site-content {
+    overflow: initial;
     position: relative;
     background-color: #F9F9F9;
     -webkit-transition: 1s;
     transition: 1s;
+    height: auto;
 }
 
 .square {
@@ -645,6 +639,15 @@ body {
     bottom: 5%;
 }
 
+.float-title-five {
+    max-width: 90%;
+    max-height: 50%;
+    position: bottom;
+    bottom: 5%;
+    padding-left: 5%;
+    padding: 5%;
+}
+
 .thumb {
     width: auto;
     // height: 100.5%;
@@ -686,6 +689,7 @@ body {
     font-weight: bolder;
     text-align: center;
     font-size:3rem;
+    padding-bottom: 3rem;
 }
 
 .materia-title-second-row {
@@ -920,6 +924,10 @@ body {
     min-height: 100vh;
 }
 
+#fullpage {
+    height: auto;
+}
+
 .grayscale {
     filter: grayscale(100%);
 }
@@ -1009,7 +1017,7 @@ body {
 
 .videoloop{
     width: 100%;
-    height: auto;
+    max-height: auto;
     position: relative;
 }
 
@@ -1145,7 +1153,6 @@ display: flex;
     }
 
     #shuffle-container {
-        overflow: hidden!important;
         width: 100vw;
         margin-left: 0%;
         margin-right: 0%;
@@ -1256,7 +1263,7 @@ display: flex;
     }
 
     .scroll-first {
-    display: flex;
+    display: auto;
     position: absolute;
     height: 40%;
     top: calc(60% - 53.5px);
@@ -1293,12 +1300,14 @@ display: flex;
         font-size: 2rem;
         padding: 5% 0;
         line-height: 3rem;
+        padding-bottom: 3rem;
     }
 
     .eye-text {
         font-size: 2.5rem;
         padding: 5% 0;
         line-height: 3.5rem;
+        padding-bottom: 1.4rem;
     }
 
     .fonte {
@@ -1445,7 +1454,7 @@ display: flex;
     }
 
     .video-play {
-        width: 100%;
+        width: auto!important;
         height: 420px;
         margin-top: 65%;
         margin-left: 0!important;
@@ -1519,8 +1528,9 @@ display: flex;
         background: black;
         min-height: 0vh;
         /*mix-blend-mode: difference;*/
-        max-height: 100vh;
+        height: auto;
     }
+
 
     /* video#myVideo {
         visibility: hidden;
@@ -1590,3 +1600,4 @@ display: flex;
     margin: 10% -10% 5% -10%;
 
 }
+
