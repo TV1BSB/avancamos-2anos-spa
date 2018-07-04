@@ -2032,7 +2032,7 @@ class Home extends Component {
                         </div>
 
                         <div id="bottom">
-                            <img alt="" src={logoRodape} srcSet={`${logoRodape2} 2x, ${logoRodape3} 3x`} />
+                            <img alt="" src={logoRodape} id="logo-rodape"/>
                         </div>
                     </div>
                 </div>
