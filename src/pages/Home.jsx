@@ -129,8 +129,6 @@ import logoColor2 from '../assets/img/logo-color@2x.png';
 import logoColor3 from '../assets/img/logo-color@3x.png';
 
 import logoRodape from '../assets/img/logo-rodape.png';
-import logoRodape2 from '../assets/img/logo-rodape@2x.png';
-import logoRodape3 from '../assets/img/logo-rodape@3x.png';
 
 
 /* 
